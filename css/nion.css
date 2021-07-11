@@ -1,0 +1,119 @@
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #0ff,
+    0 0 15px #0ff
+}
+
+.neon_btn {
+  display: block;
+  margin: auto;
+  padding: 1rem 1.25rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-shadow:
+    -2px 4px 4px #091243,
+    0 0 10px #00D0FF,
+    inset 1px 1px 1px white;
+  color: #1FFFFF;
+  border: 2px solid;
+  border-radius: 4px;
+  background-color: transparent;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.6),
+    2px 1px 4px rgba(0, 0, 0, 0.3),
+    2px 4px 3px rgba(3, 0, 128, 0.3),
+    0 0 7px 2px rgba(0, 208, 255, 0.6),
+    inset 0 1px 2px rgba(0, 0, 0, 0.6),
+    inset 2px 1px 4px rgba(0, 0, 0, 0.3),
+    inset 2px 4px 3px rgba(3, 0, 128, 0.3),
+    inset 0 0 7px 2px rgba(0, 208, 255, 0.6);
+  -webkit-animation: flickering 5s infinite;
+  animation: flickering 5s infinite;
+}
+
+@-webkit-keyframes flickering {
+  0% {
+    border-color: transparent;
+    opacity: 0.2;
+  }
+
+  2% {
+    border-color: #1FFFFF;
+    opacity: 1;
+  }
+
+  4% {
+    border-color: transparent;
+    opacity: 0.2;
+  }
+
+  8% {
+    border-color: #1FFFFF;
+    opacity: 1;
+  }
+
+  28% {
+    border-color: #1FFFFF;
+    opacity: 1;
+  }
+
+  30% {
+    border-color: transparent;
+    opacity: 0.2;
+  }
+
+  36% {
+    border-color: #1FFFFF;
+    opacity: 1;
+  }
+
+  100% {
+    border-color: #1FFFFF;
+    opacity: 1;
+  }
+}
+
+@keyframes flickering {
+  0% {
+    border-color: transparent;
+    opacity: 0.2;
+  }
+
+  2% {
+    border-color: #1FFFFF;
+    opacity: 1;
+  }
+
+  4% {
+    border-color: transparent;
+    opacity: 0.2;
+  }
+
+  8% {
+    border-color: #1FFFFF;
+    opacity: 1;
+  }
+
+  28% {
+    border-color: #1FFFFF;
+    opacity: 1;
+  }
+
+  30% {
+    border-color: transparent;
+    opacity: 0.2;
+  }
+
+  36% {
+    border-color: #1FFFFF;
+    opacity: 1;
+  }
+
+  100% {
+    border-color: #1FFFFF;
+    opacity: 1;
+  }
+}

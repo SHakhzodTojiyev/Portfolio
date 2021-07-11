@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: #141F36;
+    padding: 0;
+    margin: 0
+}
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, #00c6ff, #35c6ff, #55c6ff, #75c6ff, #85c6ff, #95c6ff);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, #30ff00, #45ff00, #55ff00, #75ff00, #80ff00, #95ff00);
+    border-radius: 6px;
+}
+
+.google {
+    max-width: 200px;
+    padding-top: 5px;
+}
+
+.sec_container {
+    margin-top: 150px;
+    width: 100%;
+}
+
+.typing {
+    position: relative;
+}
+
+.typing::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 25px;
+    border-right: 2px solid #fff;
+    -webkit-animation: blink 0.5s infinite ease;
+    animation: blink 0.5s infinite ease;
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.content_intro {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: 900;
+    font-size: 40px;
+    color: #89ff00;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px#89ff00
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background: #141F36;
+    z-index: 1000;
+    transition: 0.6s;
+}
+
+header.sticky {
+    padding: 15px 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+header .logo {
+    position: relative;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+header.sticky ul li a {
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #0ff;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #0ff;
+    letter-spacing: 2px;
+    font-weight: 300;
+    transition: 0.6s;
+}
+
+@media (max-width: 992px) {
+    .toggle {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .toggle::before {
+        content: '';
+        position: absolute;
+        top: 4px;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        z-index: 1;
+        box-shadow: 0 10px 0 #fff;
+        transition: 0.5s;
+    }
+
+    .toggle::after {
+        content: '';
+        position: absolute;
+        bottom: 4px;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        z-index: 1;
+        transition: 0.5s;
+    }
+
+    header,
+    header.sticky {
+        padding: 10px 50px;
+    }
+
+    header ul {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        overflow: auto;
+        background: #141F36;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    header.active ul {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        padding-top: 20px;
+    }
+
+    header.active ul li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 2rem;
+    }
+
+    header .logo,
+    header ul li a {
+        color: #fff;
+    }
+
+}
+
+/* ---------------------- */
+.footure {
+    position: relative;
+    margin-top: 5%;
+    width: 100%;
+    height: 12vh;
+}
+
+.footure-text {
+    letter-spacing: 0.2rem;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 1.2rem;
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff;
+}
