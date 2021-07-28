@@ -43,7 +43,7 @@ link: "https://xgujk.csb.app/",
 aria_hidden: true
 },{
 data_id: "Web App",
-image: "https://i.ibb.co/mBtpT29/image.png",
+image: "https://i.ibb.co/7y62qh6/image.png",
 link: "https://5s4xv.csb.app/",
 aria_hidden: true
 },
