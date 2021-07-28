@@ -1,4 +1,3 @@
-<img src="https://i.ibb.co/vm8XJdj/image.png" alt="image" border="0">
 
 export default [
 {
