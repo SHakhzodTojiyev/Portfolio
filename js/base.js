@@ -1,8 +1,16 @@
+
+
 export default [
 {
 data_id: "Web App",
 image: "https://i.ibb.co/Fz8YNbt/1.png",
 link: "https://xgujk.csb.app/",
+aria_hidden: true
+},
+{
+data_id: "Web App",
+image: "https://i.ibb.co/kShKhnG/image.png",
+link: "https://fqvwy.csb.app/",
 aria_hidden: true
 },
 {
