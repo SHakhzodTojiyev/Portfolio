@@ -1,6 +1,12 @@
 
 export default [
 {
+data_id: "Web App",
+image: "https://i.ibb.co/7152CfQ/image.png",
+link: "../Resume.pdf",
+aria_hidden: true
+},
+{
 data_id: "Website",
 image: "https://i.ibb.co/bFgGXCv/image.png",
 link: "https://up08l.csb.app/",
