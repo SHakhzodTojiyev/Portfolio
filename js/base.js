@@ -2,6 +2,12 @@
 export default [
 {
 data_id: "Website",
+image: "https://i.ibb.co/TLL7hkm/image.png",
+link: "https://topconsult.uz/",
+aria_hidden: true
+},
+{
+data_id: "Website",
 image: "https://i.ibb.co/bFgGXCv/image.png",
 link: "https://up08l.csb.app/",
 aria_hidden: true
