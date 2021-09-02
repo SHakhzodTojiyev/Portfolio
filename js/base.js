@@ -2,7 +2,7 @@
 export default [
 {
 data_id: "Web App",
-image: "https://i.ibb.co/7152CfQ/image.png",
+image: "https://i.ibb.co/qDRzk9Z/image.png",
 link: "../Resume.pdf",
 aria_hidden: true
 },
