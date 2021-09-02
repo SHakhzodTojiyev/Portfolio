@@ -20,12 +20,6 @@ aria_hidden: true
 },
 {
 data_id: "Website",
-image: "https://i.ibb.co/gPwQpww/image.png",
-link: "https://54r61.csb.app/",
-aria_hidden: true
-},
-{
-data_id: "Website",
 image: "https://i.ibb.co/ZLB2ST2/image.png",
 link: "https://vxh7x.csb.app/",
 aria_hidden: true
