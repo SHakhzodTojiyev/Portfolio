@@ -7,6 +7,12 @@ link: "../Resume.pdf",
 aria_hidden: true
 },
 {
+data_id: "Web App",
+image: "https://i.ibb.co/pQ0jFbx/image.png",
+link: "https://r39oi.csb.app/",
+aria_hidden: true
+},
+{
 data_id: "Website",
 image: "https://i.ibb.co/0JmSm7r/image.png",
 link: "https://2qlkn.csb.app/",
@@ -46,6 +52,12 @@ aria_hidden: true
 data_id: "Website",
 image: "https://i.ibb.co/n7VxTsz/image.png",
 link: "https://ngqll.csb.app/",
+aria_hidden: true
+},
+{
+data_id: "Web App",
+image: "https://i.ibb.co/K963cg6/image.png",
+link: "https://5s4xv.csb.app/",
 aria_hidden: true
 },
 {
@@ -94,6 +106,12 @@ aria_hidden: true
 data_id: "Website",
 image: "https://i.ibb.co/Yb91XdM/2.jpg",
 link: "https://education-online.netlify.app/",
+aria_hidden: true
+},
+{
+data_id: "Components",
+image: "https://i.ibb.co/FxHWdnd/image.png",
+link: "https://4g5ni.csb.app/",
 aria_hidden: true
 },
 {
