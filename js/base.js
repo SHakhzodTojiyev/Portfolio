@@ -37,42 +37,6 @@ link: "https://uykfb.csb.app/",
 aria_hidden: true
 },
 {
-data_id: "Website",
-image: "https://i.ibb.co/85XFmvQ/image.png",
-link: "https://npef1.csb.app/",
-aria_hidden: true
-},
-{
-data_id: "Website",
-image: "https://i.ibb.co/GcP1vKF/image.png",
-link: "https://lodoz.csb.app/",
-aria_hidden: true
-},
-{
-data_id: "Website",
-image: "https://i.ibb.co/bFgGXCv/image.png",
-link: "https://up08l.csb.app/",
-aria_hidden: true
-},
-{
-data_id: "Website",
-image: "https://i.ibb.co/Y8Y53Wq/image.png",
-link: "https://rx38f.csb.app/",
-aria_hidden: true
-},
-{
-data_id: "Website",
-image: "https://i.ibb.co/ZLB2ST2/image.png",
-link: "https://vxh7x.csb.app/",
-aria_hidden: true
-},
-{
-data_id: "Website",
-image: "https://i.ibb.co/n7VxTsz/image.png",
-link: "https://ngqll.csb.app/",
-aria_hidden: true
-},
-{
 data_id: "Web App",
 image: "https://i.ibb.co/K963cg6/image.png",
 link: "https://5s4xv.csb.app/",
