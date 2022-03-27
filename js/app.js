@@ -34,7 +34,7 @@ data.forEach(element => {
         <img
           src="${element.image}"
           alt="${element.data_id}">
-        <h4><a target="_blank" href="${element.link}">Link <i class="fa fa-external-link-square" aria-hidden="${element.aria_hidden}"></i></a></h4>
+        <h4><a target="_blank" href="${element.link}">Link <i class="fa fa-external-link-square"></i></a></h4>
     </div>
     `;
 })
