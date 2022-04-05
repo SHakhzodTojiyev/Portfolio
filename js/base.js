@@ -1,5 +1,10 @@
 
 export default [
+   { 
+    image: "https://i.ibb.co/BnX7JYR/sqr.png",
+    data_id: "Web app",
+    link: "https://sqrgame.netlify.app"
+  },
   { 
     image: "https://i.ibb.co/LZmVWcS/Screenshot-from-2022-03-28-04-07-52.png",
     data_id: "Website",
