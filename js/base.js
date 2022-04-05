@@ -2,7 +2,7 @@
 export default [
    { 
     image: "https://i.ibb.co/BnX7JYR/sqr.png",
-    data_id: "Web app",
+    data_id: "Web App",
     link: "https://sqrgame.netlify.app"
   },
   { 
