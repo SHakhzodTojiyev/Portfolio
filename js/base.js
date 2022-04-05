@@ -10,4 +10,15 @@ export default [
     data_id: "Website",
     link: "https://business-invest.netlify.app"
   },
+  { 
+    image: "https://i.ibb.co/1LPQ50B/online.png",
+    data_id: "Website",
+    link: "https://education-online.netlify.app"
+  },
+  { 
+    image: "https://i.ibb.co/yqKvmPb/abu.png",
+    data_id: "Website",
+    link: "https://abushop.netlify.app"
+  },
+
 ];
