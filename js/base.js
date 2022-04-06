@@ -1,5 +1,10 @@
 
 export default [
+  { 
+    image: "https://i.ibb.co/ng7zc4P/quiz.png",
+    data_id: "Web App",
+    link: "https://my-quiz-app-demo.netlify.app"
+  },
    { 
     image: "https://i.ibb.co/BnX7JYR/sqr.png",
     data_id: "Web App",
