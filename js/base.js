@@ -1,6 +1,11 @@
 
 export default [
   { 
+    image: "https://i.ibb.co/HPK60mm/search.png",
+    data_id: "Web App",
+    link: "https://searchme-wiki.netlify.app"
+  },
+  { 
     image: "https://i.ibb.co/ng7zc4P/quiz.png",
     data_id: "Web App",
     link: "https://my-quiz-app-demo.netlify.app"
